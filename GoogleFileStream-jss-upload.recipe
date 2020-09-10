@@ -5,7 +5,7 @@
     <key>Description</key>
     <string>Uses parent pkg recipe to download latest Google Chrome and import it into the JSS.</string>
     <key>Identifier</key>
-    <string>com.gcit.jss-upload.GogleFileStream</string>
+    <string>com.gcit.jss-upload.GoogleFileStream</string>
     <key>Input</key>
     <dict>
         <key>CATEGORY</key>
@@ -16,7 +16,7 @@
     <key>MinimumVersion</key>
     <string>0.2.0</string>
     <key>ParentRecipe</key>
-    <string>com.github.nstrauss.pkg.GoogleFileStream</string>
+    <string>com.github.nstrauss.pkg.GoogleDriveFileStream</string>
     <key>Process</key>
     <array>
         <dict>
